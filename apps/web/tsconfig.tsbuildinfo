@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/components/filterbar.tsx","./src/components/fixturecard.tsx","./src/data/loader.ts","./vite.config.ts"],"version":"5.9.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/fixturecard.tsx","./src/components/tabbar.tsx","./src/data/loader.ts","./src/lib/flags.ts","./src/lib/usehashtab.ts","./src/views/fixturesview.tsx","./src/views/groupsview.tsx","./src/views/teamsview.tsx","./vite.config.ts"],"version":"5.9.3"}

@@ -1,43 +1,26 @@
 import { useEffect, useMemo, useState } from "react";
-import {
-  filterMatches,
-  resolveBracket,
-  sortMatches,
-  type MatchFilter,
-  type SortKey,
-  type Tournament,
-} from "@worldcup/data";
-import { FilterBar } from "./components/FilterBar";
-import { FixtureCard } from "./components/FixtureCard";
+import { resolveBracket, type Tournament } from "@worldcup/data";
+import { TabBar } from "./components/TabBar";
+import { useHashTab } from "./lib/useHashTab";
+import { FixturesView } from "./views/FixturesView";
+import { GroupsView } from "./views/GroupsView";
+import { TeamsView } from "./views/TeamsView";
 import { fetchLatestTournament, loadBakedTournament } from "./data/loader";
 
 export default function App() {
-  // Seed with whatever the build baked in; refresh from upstream in the bg.
   const [tournament, setTournament] = useState<Tournament>(() =>
     loadBakedTournament(),
   );
-  const [filter, setFilter] = useState<MatchFilter>({});
-  const [sortKey, setSortKey] = useState<SortKey>("kickoff");
+  const [tab, setTab] = useHashTab();
   const [refreshState, setRefreshState] = useState<
     "idle" | "refreshing" | "updated" | "offline"
   >("idle");
 
-  // Resolve bracket placeholders any time the underlying data changes.
   const resolved = useMemo(() => {
     const { matches, unresolvedSlots } = resolveBracket(tournament.matches);
-    return {
-      tournament: { ...tournament, matches },
-      unresolvedSlots,
-    };
+    return { tournament: { ...tournament, matches }, unresolvedSlots };
   }, [tournament]);
 
-  // Apply filters + sort.
-  const matches = useMemo(() => {
-    const filtered = filterMatches(resolved.tournament, filter);
-    return sortMatches(filtered, sortKey);
-  }, [resolved.tournament, filter, sortKey]);
-
-  // Background refresh from upstream — service worker also caches this.
   useEffect(() => {
     const ctrl = new AbortController();
     setRefreshState("refreshing");
@@ -68,52 +51,21 @@ export default function App() {
         <RefreshBadge state={refreshState} />
       </header>
 
-      <FilterBar
-        tournament={resolved.tournament}
-        filter={filter}
-        onChange={setFilter}
-      />
+      <TabBar active={tab} onChange={setTab} />
 
-      <div className="mt-3 flex items-center justify-between text-sm text-white/70">
-        <span>
-          {matches.length} fixture{matches.length === 1 ? "" : "s"}
-          {resolved.unresolvedSlots > 0 && (
-            <span className="text-white/40">
-              {" · "}
-              {resolved.unresolvedSlots} bracket TBD
-            </span>
-          )}
-        </span>
-        <label className="inline-flex items-center gap-2">
-          <span className="text-white/60">Sort</span>
-          <select
-            className="bg-white/10 text-white text-sm rounded px-2 py-1 focus:outline-none focus:ring-1 focus:ring-pitch"
-            value={sortKey}
-            onChange={(e) => setSortKey(e.target.value as SortKey)}
-          >
-            <option value="kickoff">Date / time</option>
-            <option value="city">Host city</option>
-            <option value="group">Group</option>
-            <option value="stage">Stage</option>
-          </select>
-        </label>
-      </div>
-
-      <ul className="mt-3 space-y-3">
-        {matches.map((m) => (
-          <li key={m.id}>
-            <FixtureCard match={m} />
-          </li>
-        ))}
-        {matches.length === 0 && (
-          <li className="rounded-xl bg-white/5 border border-white/5 p-6 text-center text-white/60">
-            No matches match your filters.
-          </li>
+      <main className="mt-4">
+        {tab === "fixtures" && (
+          <FixturesView
+            tournament={resolved.tournament}
+            unresolvedSlots={resolved.unresolvedSlots}
+          />
         )}
-      </ul>
+        {tab === "groups" && <GroupsView tournament={resolved.tournament} />}
+        {tab === "teams" && <TeamsView tournament={resolved.tournament} />}
+      </main>
 
       <footer className="mt-12 text-xs text-white/40 text-center">
-        Data: openfootball/worldcup.json · Installable as a PWA · Works offline
+        Data: openfootball/worldcup.json · Installable PWA · Works offline
       </footer>
     </div>
   );

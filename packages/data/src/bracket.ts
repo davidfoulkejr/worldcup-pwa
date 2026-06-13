@@ -5,6 +5,7 @@
 // can call it any time the data refreshes.
 
 import type { GroupLetter, Match, TeamSlot } from "./model.js";
+import { teamOrderByGroup } from "./standings.js";
 
 export interface BracketResolution {
   /** Same matches but with team slots resolved to concrete nations when known. */
@@ -17,7 +18,6 @@ export function resolveBracket(matches: Match[]): BracketResolution {
   const winnerByNum = new Map<number, string>();
   const loserByNum = new Map<number, string>();
 
-  // First pass: walk in kickoff order, capture winners/losers of completed matches.
   const inOrder = [...matches].sort(
     (a, b) => a.kickoff.utc.getTime() - b.kickoff.utc.getTime(),
   );
@@ -34,8 +34,7 @@ export function resolveBracket(matches: Match[]): BracketResolution {
     loserByNum.set(m.stage.matchNum, loser);
   }
 
-  // Group standings (very simple — 3/1/0 points, GD then GF tiebreak).
-  const standings = computeGroupStandings(matches);
+  const standings = teamOrderByGroup(matches);
 
   let unresolved = 0;
   const resolved = matches.map((m) => {
@@ -85,52 +84,6 @@ function resolve(
       return slot;
     }
   }
-}
-
-interface Row {
-  team: string;
-  p: number; w: number; d: number; l: number;
-  gf: number; ga: number; pts: number;
-}
-
-function computeGroupStandings(matches: Match[]) {
-  const tables = new Map<GroupLetter, Map<string, Row>>();
-  for (const m of matches) {
-    if (m.stage.kind !== "group" || !m.score) continue;
-    if (m.team1.kind !== "team" || m.team2.kind !== "team") continue;
-    const g = m.stage.group;
-    const table = tables.get(g) ?? new Map<string, Row>();
-    tables.set(g, table);
-    const a = table.get(m.team1.name) ?? blank(m.team1.name);
-    const b = table.get(m.team2.name) ?? blank(m.team2.name);
-    const [s1, s2] = m.score.fullTime;
-    a.p++; b.p++;
-    a.gf += s1; a.ga += s2;
-    b.gf += s2; b.ga += s1;
-    if (s1 > s2) { a.w++; b.l++; a.pts += 3; }
-    else if (s1 < s2) { b.w++; a.l++; b.pts += 3; }
-    else { a.d++; b.d++; a.pts++; b.pts++; }
-    table.set(a.team, a); table.set(b.team, b);
-  }
-  const ordered = new Map<GroupLetter, string[]>();
-  for (const [g, table] of tables) {
-    ordered.set(
-      g,
-      [...table.values()]
-        .sort((x, y) =>
-          y.pts - x.pts ||
-          (y.gf - y.ga) - (x.gf - x.ga) ||
-          y.gf - x.gf ||
-          x.team.localeCompare(y.team),
-        )
-        .map((r) => r.team),
-    );
-  }
-  return ordered;
-}
-
-function blank(team: string): Row {
-  return { team, p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, pts: 0 };
 }
 
 function nameOrNull(s: TeamSlot): string | null {

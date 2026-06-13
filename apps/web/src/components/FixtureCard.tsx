@@ -1,4 +1,5 @@
-import { formatSlot, type Match } from "@worldcup/data";
+import { flagFor, teamWithFlag } from "../lib/flags";
+import { formatSlot, type Match, type TeamSlot } from "@worldcup/data";
 
 interface Props {
   match: Match;
@@ -29,8 +30,6 @@ function stageLabel(m: Match): string {
 }
 
 export function FixtureCard({ match }: Props) {
-  const t1 = formatSlot(match.team1);
-  const t2 = formatSlot(match.team2);
   const score = match.score
     ? `${match.score.fullTime[0]} – ${match.score.fullTime[1]}`
     : "vs";
@@ -41,16 +40,18 @@ export function FixtureCard({ match }: Props) {
   return (
     <article className="rounded-xl bg-white/5 border border-white/5 p-4 space-y-3">
       <header className="flex items-center justify-between text-xs">
-        <span className="rounded-full bg-pitch/30 text-pitch-100 px-2 py-0.5">
+        <span className="rounded-full bg-pitch/30 text-white/90 px-2 py-0.5">
           {stageLabel(match)}
         </span>
         <span className="text-white/60">{match.venue.country}</span>
       </header>
 
       <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-        <Team name={t1} confirmed={match.team1.kind === "team"} />
-        <div className="text-lg font-semibold tabular-nums">{score}</div>
-        <Team name={t2} confirmed={match.team2.kind === "team"} align="right" />
+        <Team slot={match.team1} />
+        <div className="text-lg font-semibold tabular-nums whitespace-nowrap">
+          {score}
+        </div>
+        <Team slot={match.team2} align="right" />
       </div>
 
       <footer className="text-xs text-white/60 flex flex-wrap items-center gap-x-2">
@@ -63,23 +64,34 @@ export function FixtureCard({ match }: Props) {
 }
 
 function Team({
-  name,
-  confirmed,
+  slot,
   align = "left",
 }: {
-  name: string;
-  confirmed: boolean;
+  slot: TeamSlot;
   align?: "left" | "right";
 }) {
+  const isConfirmed = slot.kind === "team";
+  const name = formatSlot(slot);
+  const flag = isConfirmed ? flagFor(slot.name) : "";
+
   return (
-    <div className={align === "right" ? "text-right" : "text-left"}>
-      <div
+    <div
+      className={
+        "flex items-center gap-2 " +
+        (align === "right" ? "justify-end flex-row-reverse text-right" : "")
+      }
+    >
+      {flag && <span className="text-xl leading-none">{flag}</span>}
+      <span
         className={
-          "font-medium " + (confirmed ? "text-white" : "text-white/60 italic")
+          "font-medium " + (isConfirmed ? "text-white" : "text-white/60 italic")
         }
       >
         {name}
-      </div>
+      </span>
     </div>
   );
 }
+
+export { teamWithFlag };
+

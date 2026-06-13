@@ -7,3 +7,8 @@ export { resolveBracket } from "./bracket.js";
 export { parseVenue } from "./venues.js";
 export { parseTeamSlot, formatSlot, GROUP_LETTERS } from "./teams.js";
 export { parseKickoff } from "./time.js";
+export {
+  computeAllStandings,
+  teamOrderByGroup,
+} from "./standings.js";
+export type { StandingRow, GroupTable } from "./standings.js";
