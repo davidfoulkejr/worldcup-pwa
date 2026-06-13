@@ -3,6 +3,7 @@ import {
   filterMatches,
   sortMatches,
   type GroupLetter,
+  type Match,
   type MatchFilter,
   type Tournament,
 } from "@worldcup/data";
@@ -155,20 +156,57 @@ export function FixturesView({ tournament, unresolvedSlots }: Props) {
         )}
       </div>
 
-      <ul className="space-y-3">
-        {matches.map((m) => (
-          <li key={m.id}>
-            <FixtureCard match={m} />
-          </li>
-        ))}
-        {matches.length === 0 && (
-          <li className="rounded-xl bg-white/5 border border-white/5 p-6 text-center text-white/60">
-            No matches match your filters.
-          </li>
-        )}
-      </ul>
+      {matches.length === 0 ? (
+        <div className="rounded-xl bg-white/5 border border-white/5 p-6 text-center text-white/60">
+          No matches match your filters.
+        </div>
+      ) : (
+        <DateGroupedList matches={matches} />
+      )}
     </div>
   );
+}
+
+function DateGroupedList({ matches }: { matches: Match[] }) {
+  // Group by the venue's local date so the day boundaries line up with how
+  // fans on the ground experience the schedule.
+  const groups: { date: string; matches: Match[] }[] = [];
+  for (const m of matches) {
+    const last = groups[groups.length - 1];
+    if (last && last.date === m.kickoff.localDate) {
+      last.matches.push(m);
+    } else {
+      groups.push({ date: m.kickoff.localDate, matches: [m] });
+    }
+  }
+
+  return (
+    <div className="space-y-6">
+      {groups.map((g) => (
+        <section key={g.date} className="space-y-3">
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-pitch">
+            {formatDateHeader(g.date)}
+          </h3>
+          <ul className="space-y-3">
+            {g.matches.map((m) => (
+              <li key={m.id}>
+                <FixtureCard match={m} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function formatDateHeader(localDate: string): string {
+  const dt = new Date(`${localDate}T12:00:00`);
+  return dt.toLocaleDateString(undefined, {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
 }
 
 function Field({

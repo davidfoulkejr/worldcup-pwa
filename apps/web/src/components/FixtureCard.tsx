@@ -5,28 +5,31 @@ interface Props {
   match: Match;
 }
 
-/** Friendly kickoff display: e.g. "Sat Jun 13 · 21:00 (local) · 6:00 PM PT" */
-function formatKickoff(m: Match): string {
-  const localDt = new Date(`${m.kickoff.localDate}T${m.kickoff.localTime}:00`);
-  const weekday = localDt.toLocaleDateString(undefined, { weekday: "short" });
-  const day = localDt.toLocaleDateString(undefined, {
-    month: "short",
-    day: "numeric",
-  });
-  const local = `${m.kickoff.localTime} ${m.kickoff.utcOffset}`;
-  const yours = m.kickoff.utc.toLocaleTimeString(undefined, {
-    hour: "numeric",
-    minute: "2-digit",
-    timeZoneName: "short",
-  });
-  return `${weekday} ${day} · ${local} · your time: ${yours}`;
-}
-
 function stageLabel(m: Match): string {
   if (m.stage.kind === "group") {
     return `Group ${m.stage.group} · MD${m.stage.matchday}`;
   }
   return `${m.stage.round} · #${m.stage.matchNum}`;
+}
+
+function formatYourTime(m: Match): string {
+  return m.kickoff.utc.toLocaleString(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
+}
+
+function formatVenueDate(m: Match): string {
+  const dt = new Date(`${m.kickoff.localDate}T${m.kickoff.localTime}:00`);
+  return dt.toLocaleDateString(undefined, {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  });
 }
 
 export function FixtureCard({ match }: Props) {
@@ -38,27 +41,44 @@ export function FixtureCard({ match }: Props) {
     : match.venue.metro;
 
   return (
-    <article className="rounded-xl bg-white/5 border border-white/5 p-4 space-y-3">
-      <header className="flex items-center justify-between text-xs">
-        <span className="rounded-full bg-pitch/30 text-white/90 px-2 py-0.5">
+    <article className="rounded-xl bg-white/5 border border-white/5 overflow-hidden">
+      {/* Prominent kickoff strip */}
+      <div className="flex items-center justify-between gap-3 px-4 py-3 bg-white/5 border-b border-white/5">
+        <div className="flex items-baseline gap-2">
+          <span className="text-2xl font-bold tabular-nums leading-none">
+            {match.kickoff.localTime}
+          </span>
+          <span className="text-xs text-white/60 leading-none whitespace-nowrap">
+            {match.kickoff.utcOffset} · {formatVenueDate(match)}
+          </span>
+        </div>
+        <span className="text-xs rounded-full bg-pitch/30 text-white/90 px-2 py-0.5 whitespace-nowrap">
           {stageLabel(match)}
         </span>
-        <span className="text-white/60">{match.venue.country}</span>
-      </header>
-
-      <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-        <Team slot={match.team1} />
-        <div className="text-lg font-semibold tabular-nums whitespace-nowrap">
-          {score}
-        </div>
-        <Team slot={match.team2} align="right" />
       </div>
 
-      <footer className="text-xs text-white/60 flex flex-wrap items-center gap-x-2">
-        <span>{venueLabel}</span>
-        <span>·</span>
-        <span>{formatKickoff(match)}</span>
-      </footer>
+      <div className="px-4 py-4 space-y-3">
+        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
+          <Team slot={match.team1} />
+          <div className="text-lg font-semibold tabular-nums whitespace-nowrap">
+            {score}
+          </div>
+          <Team slot={match.team2} align="right" />
+        </div>
+
+        <div className="text-xs text-white/60 space-y-0.5">
+          <div className="flex items-center gap-1">
+            <span className="text-white/40">📍</span>
+            <span>{venueLabel}</span>
+            <span className="text-white/40">·</span>
+            <span>{match.venue.country}</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-white/40">🕒</span>
+            <span>Your time: {formatYourTime(match)}</span>
+          </div>
+        </div>
+      </div>
     </article>
   );
 }
