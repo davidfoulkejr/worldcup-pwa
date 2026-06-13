@@ -168,24 +168,25 @@ export function FixturesView({ tournament, unresolvedSlots }: Props) {
 }
 
 function DateGroupedList({ matches }: { matches: Match[] }) {
-  // Group by the venue's local date so the day boundaries line up with how
-  // fans on the ground experience the schedule.
-  const groups: { date: string; matches: Match[] }[] = [];
+  // Group by the user's device-local date so the day headers match the
+  // prominent kickoff times shown in each card.
+  const groups: { key: string; label: string; matches: Match[] }[] = [];
   for (const m of matches) {
+    const key = localDateKey(m.kickoff.utc);
     const last = groups[groups.length - 1];
-    if (last && last.date === m.kickoff.localDate) {
+    if (last && last.key === key) {
       last.matches.push(m);
     } else {
-      groups.push({ date: m.kickoff.localDate, matches: [m] });
+      groups.push({ key, label: formatDateHeader(m.kickoff.utc), matches: [m] });
     }
   }
 
   return (
     <div className="space-y-6">
       {groups.map((g) => (
-        <section key={g.date} className="space-y-3">
+        <section key={g.key} className="space-y-3">
           <h3 className="text-sm font-semibold uppercase tracking-wider text-pitch">
-            {formatDateHeader(g.date)}
+            {g.label}
           </h3>
           <ul className="space-y-3">
             {g.matches.map((m) => (
@@ -200,9 +201,16 @@ function DateGroupedList({ matches }: { matches: Match[] }) {
   );
 }
 
-function formatDateHeader(localDate: string): string {
-  const dt = new Date(`${localDate}T12:00:00`);
-  return dt.toLocaleDateString(undefined, {
+/** YYYY-MM-DD in the device's local timezone — used as a grouping key. */
+function localDateKey(d: Date): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function formatDateHeader(d: Date): string {
+  return d.toLocaleDateString(undefined, {
     weekday: "long",
     month: "long",
     day: "numeric",
