@@ -1,0 +1,3643 @@
+{
+  "name": "World Cup 2026",
+  "matches": [
+    {
+      "id": "g-A-md1-1",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 1
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Mexico"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "South Africa"
+      },
+      "venue": {
+        "raw": "Mexico City",
+        "metro": "Mexico City",
+        "slug": "mexico-city",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-11",
+        "localTime": "13:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-11T19:00:00.000Z"
+      },
+      "goals1": [
+        {
+          "scorer": "Julián Quiñones",
+          "minute": "9",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Raúl Jiménez",
+          "minute": "67",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          2,
+          0
+        ],
+        "halfTime": [
+          1,
+          0
+        ]
+      }
+    },
+    {
+      "id": "g-A-md1-2",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 1
+      },
+      "team1": {
+        "kind": "team",
+        "name": "South Korea"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Czech Republic"
+      },
+      "venue": {
+        "raw": "Guadalajara (Zapopan)",
+        "metro": "Guadalajara",
+        "suburb": "Zapopan",
+        "slug": "guadalajara",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-11",
+        "localTime": "20:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-12T02:00:00.000Z"
+      },
+      "goals1": [
+        {
+          "scorer": "Hwang In-Beom",
+          "minute": "67",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Oh Hyeon-Gyu",
+          "minute": "80",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Ladislav Krejcí",
+          "minute": "59",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          2,
+          1
+        ],
+        "halfTime": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "g-B-md2-1",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 2
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Canada"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Bosnia & Herzegovina"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-12",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-12T19:00:00.000Z"
+      },
+      "goals1": [
+        {
+          "scorer": "Cyle Larin",
+          "minute": "78",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Jovo Lukić",
+          "minute": "21",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          1
+        ],
+        "halfTime": [
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "g-D-md2-1",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 2
+      },
+      "team1": {
+        "kind": "team",
+        "name": "USA"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Paraguay"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-12",
+        "localTime": "18:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-13T01:00:00.000Z"
+      },
+      "goals1": [
+        {
+          "scorer": "Damian Bobadilla",
+          "minute": "7",
+          "ownGoal": true,
+          "penalty": false
+        },
+        {
+          "scorer": "Folarin Balogun",
+          "minute": "31",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Folarin Balogun",
+          "minute": "45+5",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Giovanni Reyna",
+          "minute": "90+8",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Mauricio",
+          "minute": "73",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          4,
+          1
+        ],
+        "halfTime": [
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "g-B-md3-1",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 3
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Qatar"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Switzerland"
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-13",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-13T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md3-1",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 3
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Brazil"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Morocco"
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-13",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-13T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md3-2",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 3
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Haiti"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Scotland"
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-13",
+        "localTime": "21:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-14T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-D-md3-1",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 3
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Australia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Turkey"
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-13",
+        "localTime": "21:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-14T04:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md4-1",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 4
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Germany"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Curaçao"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-14",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-14T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md4-1",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 4
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Netherlands"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Japan"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-14",
+        "localTime": "15:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-14T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md4-2",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 4
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Ivory Coast"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Ecuador"
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-14",
+        "localTime": "19:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-14T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md4-2",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 4
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Sweden"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Tunisia"
+      },
+      "venue": {
+        "raw": "Monterrey (Guadalupe)",
+        "metro": "Monterrey",
+        "suburb": "Guadalupe",
+        "slug": "monterrey",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-14",
+        "localTime": "20:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-15T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md5-1",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 5
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Spain"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Cape Verde"
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-15",
+        "localTime": "12:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-15T16:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md5-1",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 5
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Belgium"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Egypt"
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-15",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-15T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md5-2",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 5
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Saudi Arabia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Uruguay"
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-15",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-15T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md5-2",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 5
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Iran"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "New Zealand"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-15",
+        "localTime": "18:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-16T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md6-1",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 6
+      },
+      "team1": {
+        "kind": "team",
+        "name": "France"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Senegal"
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-16",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-16T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md6-2",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 6
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Iraq"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Norway"
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-16",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-16T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md6-1",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 6
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Argentina"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Algeria"
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-16",
+        "localTime": "20:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-17T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md6-2",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 6
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Austria"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Jordan"
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-16",
+        "localTime": "21:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-17T04:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md7-1",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 7
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Portugal"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "DR Congo"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-17",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-17T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md7-1",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 7
+      },
+      "team1": {
+        "kind": "team",
+        "name": "England"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Croatia"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-17",
+        "localTime": "15:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-17T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md7-2",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 7
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Ghana"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Panama"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-17",
+        "localTime": "19:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-17T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md7-2",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 7
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Uzbekistan"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Colombia"
+      },
+      "venue": {
+        "raw": "Mexico City",
+        "metro": "Mexico City",
+        "slug": "mexico-city",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-17",
+        "localTime": "20:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-18T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-A-md8-1",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 8
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Czech Republic"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "South Africa"
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-18",
+        "localTime": "12:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-18T16:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-B-md8-1",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 8
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Switzerland"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Bosnia & Herzegovina"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-18",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-18T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-B-md8-2",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 8
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Canada"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Qatar"
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-18",
+        "localTime": "15:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-18T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-A-md8-2",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 8
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Mexico"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "South Korea"
+      },
+      "venue": {
+        "raw": "Guadalajara (Zapopan)",
+        "metro": "Guadalajara",
+        "suburb": "Zapopan",
+        "slug": "guadalajara",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-18",
+        "localTime": "19:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-19T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-D-md9-1",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 9
+      },
+      "team1": {
+        "kind": "team",
+        "name": "USA"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Australia"
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-19",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-19T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md9-1",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 9
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Scotland"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Morocco"
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-19",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-19T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md9-2",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 9
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Brazil"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Haiti"
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-19",
+        "localTime": "20:30",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-20T00:30:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-D-md9-2",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 9
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Turkey"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Paraguay"
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-19",
+        "localTime": "20:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-20T03:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md10-1",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 10
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Netherlands"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Sweden"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-20",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-20T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md10-1",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 10
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Germany"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Ivory Coast"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-20",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-20T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md10-2",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 10
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Ecuador"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Curaçao"
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-20",
+        "localTime": "19:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-21T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md10-2",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 10
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Tunisia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Japan"
+      },
+      "venue": {
+        "raw": "Monterrey (Guadalupe)",
+        "metro": "Monterrey",
+        "suburb": "Guadalupe",
+        "slug": "monterrey",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-20",
+        "localTime": "22:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-21T04:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md11-1",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 11
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Spain"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Saudi Arabia"
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-21",
+        "localTime": "12:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-21T16:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md11-1",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 11
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Belgium"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Iran"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-21",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-21T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md11-2",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 11
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Uruguay"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Cape Verde"
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-21",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-21T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md11-2",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 11
+      },
+      "team1": {
+        "kind": "team",
+        "name": "New Zealand"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Egypt"
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-21",
+        "localTime": "18:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-22T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md12-1",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 12
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Argentina"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Austria"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-22",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-22T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md12-1",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 12
+      },
+      "team1": {
+        "kind": "team",
+        "name": "France"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Iraq"
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-22",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-22T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md12-2",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 12
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Norway"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Senegal"
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-22",
+        "localTime": "20:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-23T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md12-2",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 12
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Jordan"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Algeria"
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-22",
+        "localTime": "20:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-23T03:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md13-1",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 13
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Portugal"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Uzbekistan"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-23",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-23T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md13-1",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 13
+      },
+      "team1": {
+        "kind": "team",
+        "name": "England"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Ghana"
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-23",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-23T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md13-2",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 13
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Panama"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Croatia"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-23",
+        "localTime": "19:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-23T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md13-2",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 13
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Colombia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "DR Congo"
+      },
+      "venue": {
+        "raw": "Guadalajara (Zapopan)",
+        "metro": "Guadalajara",
+        "suburb": "Zapopan",
+        "slug": "guadalajara",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-23",
+        "localTime": "20:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-24T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-B-md14-1",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Switzerland"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Canada"
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-24T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-B-md14-2",
+      "stage": {
+        "kind": "group",
+        "group": "B",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Bosnia & Herzegovina"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Qatar"
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-24T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md14-1",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Scotland"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Brazil"
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-24T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-C-md14-2",
+      "stage": {
+        "kind": "group",
+        "group": "C",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Morocco"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Haiti"
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-24T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-A-md14-1",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Czech Republic"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Mexico"
+      },
+      "venue": {
+        "raw": "Mexico City",
+        "metro": "Mexico City",
+        "slug": "mexico-city",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "19:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-25T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-A-md14-2",
+      "stage": {
+        "kind": "group",
+        "group": "A",
+        "matchday": 14
+      },
+      "team1": {
+        "kind": "team",
+        "name": "South Africa"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "South Korea"
+      },
+      "venue": {
+        "raw": "Monterrey (Guadalupe)",
+        "metro": "Monterrey",
+        "suburb": "Guadalupe",
+        "slug": "monterrey",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-24",
+        "localTime": "19:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-25T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md15-1",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Curaçao"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Ivory Coast"
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-25T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-E-md15-2",
+      "stage": {
+        "kind": "group",
+        "group": "E",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Ecuador"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Germany"
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-25T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md15-1",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Japan"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Sweden"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "18:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-25T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-F-md15-2",
+      "stage": {
+        "kind": "group",
+        "group": "F",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Tunisia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Netherlands"
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "18:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-25T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-D-md15-1",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Turkey"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "USA"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "19:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-26T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-D-md15-2",
+      "stage": {
+        "kind": "group",
+        "group": "D",
+        "matchday": 15
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Paraguay"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Australia"
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-25",
+        "localTime": "19:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-26T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md16-1",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Norway"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "France"
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-26T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-I-md16-2",
+      "stage": {
+        "kind": "group",
+        "group": "I",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Senegal"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Iraq"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-26T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md16-1",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Cape Verde"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Saudi Arabia"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "19:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-27T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-H-md16-2",
+      "stage": {
+        "kind": "group",
+        "group": "H",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Uruguay"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Spain"
+      },
+      "venue": {
+        "raw": "Guadalajara (Zapopan)",
+        "metro": "Guadalajara",
+        "suburb": "Zapopan",
+        "slug": "guadalajara",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "18:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-27T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md16-1",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Egypt"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Iran"
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "20:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-27T03:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-G-md16-2",
+      "stage": {
+        "kind": "group",
+        "group": "G",
+        "matchday": 16
+      },
+      "team1": {
+        "kind": "team",
+        "name": "New Zealand"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Belgium"
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-06-26",
+        "localTime": "20:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-27T03:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md17-1",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Panama"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "England"
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-27T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-L-md17-2",
+      "stage": {
+        "kind": "group",
+        "group": "L",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Croatia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Ghana"
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-27T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md17-1",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Colombia"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Portugal"
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "19:30",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-27T23:30:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-K-md17-2",
+      "stage": {
+        "kind": "group",
+        "group": "K",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "DR Congo"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Uzbekistan"
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "19:30",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-27T23:30:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md17-1",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Algeria"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Austria"
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "21:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-28T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "g-J-md17-2",
+      "stage": {
+        "kind": "group",
+        "group": "J",
+        "matchday": 17
+      },
+      "team1": {
+        "kind": "team",
+        "name": "Jordan"
+      },
+      "team2": {
+        "kind": "team",
+        "name": "Argentina"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-27",
+        "localTime": "21:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-28T02:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": true
+    },
+    {
+      "id": "ko-73",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 73
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "A"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "B"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-28",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-06-28T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-76",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 76
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "C"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "F"
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-29",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-29T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-74",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 74
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "E"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F"
+        ]
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-29",
+        "localTime": "16:30",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-29T20:30:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-75",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 75
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "F"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "C"
+      },
+      "venue": {
+        "raw": "Monterrey (Guadalupe)",
+        "metro": "Monterrey",
+        "suburb": "Guadalupe",
+        "slug": "monterrey",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-29",
+        "localTime": "19:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-06-30T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-78",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 78
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "E"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "I"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-30",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-06-30T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-77",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 77
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "I"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "C",
+          "D",
+          "F",
+          "G",
+          "H"
+        ]
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-06-30",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-06-30T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-79",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 79
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "A"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "C",
+          "E",
+          "F",
+          "H",
+          "I"
+        ]
+      },
+      "venue": {
+        "raw": "Mexico City",
+        "metro": "Mexico City",
+        "slug": "mexico-city",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-06-30",
+        "localTime": "19:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-07-01T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-80",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 80
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "L"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "E",
+          "H",
+          "I",
+          "J",
+          "K"
+        ]
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-01",
+        "localTime": "12:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-01T16:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-82",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 82
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "G"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "A",
+          "E",
+          "H",
+          "I",
+          "J"
+        ]
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-01",
+        "localTime": "13:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-01T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-81",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 81
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "D"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "B",
+          "E",
+          "F",
+          "I",
+          "J"
+        ]
+      },
+      "venue": {
+        "raw": "San Francisco Bay Area (Santa Clara)",
+        "metro": "San Francisco Bay Area",
+        "suburb": "Santa Clara",
+        "slug": "san-francisco-bay-area",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-01",
+        "localTime": "17:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-02T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-84",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 84
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "H"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "J"
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-02",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-02T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-83",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 83
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "K"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "L"
+      },
+      "venue": {
+        "raw": "Toronto",
+        "metro": "Toronto",
+        "slug": "toronto",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-07-02",
+        "localTime": "19:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-02T23:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-85",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 85
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "B"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "E",
+          "F",
+          "G",
+          "I",
+          "J"
+        ]
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-07-02",
+        "localTime": "20:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-03T03:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-88",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 88
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "D"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "G"
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-03",
+        "localTime": "13:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-03T18:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-86",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 86
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "J"
+      },
+      "team2": {
+        "kind": "groupRank",
+        "rank": 2,
+        "group": "H"
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-03",
+        "localTime": "18:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-03T22:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-87",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 32",
+        "matchNum": 87
+      },
+      "team1": {
+        "kind": "groupRank",
+        "rank": 1,
+        "group": "K"
+      },
+      "team2": {
+        "kind": "thirdPlaceFrom",
+        "candidateGroups": [
+          "D",
+          "E",
+          "I",
+          "J",
+          "L"
+        ]
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-03",
+        "localTime": "20:30",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-04T01:30:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-90",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 90
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 73
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 75
+      },
+      "venue": {
+        "raw": "Houston",
+        "metro": "Houston",
+        "slug": "houston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-04",
+        "localTime": "12:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-04T17:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-89",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 89
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 74
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 77
+      },
+      "venue": {
+        "raw": "Philadelphia",
+        "metro": "Philadelphia",
+        "slug": "philadelphia",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-04",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-04T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-91",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 91
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 76
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 78
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-05",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-05T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-92",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 92
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 79
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 80
+      },
+      "venue": {
+        "raw": "Mexico City",
+        "metro": "Mexico City",
+        "slug": "mexico-city",
+        "country": "Mexico"
+      },
+      "kickoff": {
+        "localDate": "2026-07-05",
+        "localTime": "18:00",
+        "utcOffset": "UTC-6",
+        "utc": "2026-07-06T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-93",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 93
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 83
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 84
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-06",
+        "localTime": "14:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-06T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-94",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 94
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 81
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 82
+      },
+      "venue": {
+        "raw": "Seattle",
+        "metro": "Seattle",
+        "slug": "seattle",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-06",
+        "localTime": "17:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-07T00:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-95",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 95
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 86
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 88
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-07",
+        "localTime": "12:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-07T16:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-96",
+      "stage": {
+        "kind": "knockout",
+        "round": "Round of 16",
+        "matchNum": 96
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 85
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 87
+      },
+      "venue": {
+        "raw": "Vancouver",
+        "metro": "Vancouver",
+        "slug": "vancouver",
+        "country": "Canada"
+      },
+      "kickoff": {
+        "localDate": "2026-07-07",
+        "localTime": "13:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-07T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-97",
+      "stage": {
+        "kind": "knockout",
+        "round": "Quarter-final",
+        "matchNum": 97
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 89
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 90
+      },
+      "venue": {
+        "raw": "Boston (Foxborough)",
+        "metro": "Boston",
+        "suburb": "Foxborough",
+        "slug": "boston",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-09",
+        "localTime": "16:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-09T20:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-98",
+      "stage": {
+        "kind": "knockout",
+        "round": "Quarter-final",
+        "matchNum": 98
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 93
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 94
+      },
+      "venue": {
+        "raw": "Los Angeles (Inglewood)",
+        "metro": "Los Angeles",
+        "suburb": "Inglewood",
+        "slug": "los-angeles",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-10",
+        "localTime": "12:00",
+        "utcOffset": "UTC-7",
+        "utc": "2026-07-10T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-99",
+      "stage": {
+        "kind": "knockout",
+        "round": "Quarter-final",
+        "matchNum": 99
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 91
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 92
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-11",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-11T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-100",
+      "stage": {
+        "kind": "knockout",
+        "round": "Quarter-final",
+        "matchNum": 100
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 95
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 96
+      },
+      "venue": {
+        "raw": "Kansas City",
+        "metro": "Kansas City",
+        "slug": "kansas-city",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-11",
+        "localTime": "20:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-12T01:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-101",
+      "stage": {
+        "kind": "knockout",
+        "round": "Semi-final",
+        "matchNum": 101
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 97
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 98
+      },
+      "venue": {
+        "raw": "Dallas (Arlington)",
+        "metro": "Dallas",
+        "suburb": "Arlington",
+        "slug": "dallas",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-14",
+        "localTime": "14:00",
+        "utcOffset": "UTC-5",
+        "utc": "2026-07-14T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-102",
+      "stage": {
+        "kind": "knockout",
+        "round": "Semi-final",
+        "matchNum": 102
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 99
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 100
+      },
+      "venue": {
+        "raw": "Atlanta",
+        "metro": "Atlanta",
+        "slug": "atlanta",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-15",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-15T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-103",
+      "stage": {
+        "kind": "knockout",
+        "round": "Match for third place",
+        "matchNum": 103
+      },
+      "team1": {
+        "kind": "matchLoser",
+        "matchNum": 101
+      },
+      "team2": {
+        "kind": "matchLoser",
+        "matchNum": 102
+      },
+      "venue": {
+        "raw": "Miami (Miami Gardens)",
+        "metro": "Miami",
+        "suburb": "Miami Gardens",
+        "slug": "miami",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-18",
+        "localTime": "17:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-18T21:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    },
+    {
+      "id": "ko-104",
+      "stage": {
+        "kind": "knockout",
+        "round": "Final",
+        "matchNum": 104
+      },
+      "team1": {
+        "kind": "matchWinner",
+        "matchNum": 101
+      },
+      "team2": {
+        "kind": "matchWinner",
+        "matchNum": 102
+      },
+      "venue": {
+        "raw": "New York/New Jersey (East Rutherford)",
+        "metro": "New York/New Jersey",
+        "suburb": "East Rutherford",
+        "slug": "new-york-new-jersey",
+        "country": "USA"
+      },
+      "kickoff": {
+        "localDate": "2026-07-19",
+        "localTime": "15:00",
+        "utcOffset": "UTC-4",
+        "utc": "2026-07-19T19:00:00.000Z"
+      },
+      "goals1": [],
+      "goals2": [],
+      "hasConfirmedTeams": false
+    }
+  ],
+  "venues": [
+    {
+      "raw": "Atlanta",
+      "metro": "Atlanta",
+      "slug": "atlanta",
+      "country": "USA"
+    },
+    {
+      "raw": "Boston (Foxborough)",
+      "metro": "Boston",
+      "suburb": "Foxborough",
+      "slug": "boston",
+      "country": "USA"
+    },
+    {
+      "raw": "Dallas (Arlington)",
+      "metro": "Dallas",
+      "suburb": "Arlington",
+      "slug": "dallas",
+      "country": "USA"
+    },
+    {
+      "raw": "Guadalajara (Zapopan)",
+      "metro": "Guadalajara",
+      "suburb": "Zapopan",
+      "slug": "guadalajara",
+      "country": "Mexico"
+    },
+    {
+      "raw": "Houston",
+      "metro": "Houston",
+      "slug": "houston",
+      "country": "USA"
+    },
+    {
+      "raw": "Kansas City",
+      "metro": "Kansas City",
+      "slug": "kansas-city",
+      "country": "USA"
+    },
+    {
+      "raw": "Los Angeles (Inglewood)",
+      "metro": "Los Angeles",
+      "suburb": "Inglewood",
+      "slug": "los-angeles",
+      "country": "USA"
+    },
+    {
+      "raw": "Mexico City",
+      "metro": "Mexico City",
+      "slug": "mexico-city",
+      "country": "Mexico"
+    },
+    {
+      "raw": "Miami (Miami Gardens)",
+      "metro": "Miami",
+      "suburb": "Miami Gardens",
+      "slug": "miami",
+      "country": "USA"
+    },
+    {
+      "raw": "Monterrey (Guadalupe)",
+      "metro": "Monterrey",
+      "suburb": "Guadalupe",
+      "slug": "monterrey",
+      "country": "Mexico"
+    },
+    {
+      "raw": "New York/New Jersey (East Rutherford)",
+      "metro": "New York/New Jersey",
+      "suburb": "East Rutherford",
+      "slug": "new-york-new-jersey",
+      "country": "USA"
+    },
+    {
+      "raw": "Philadelphia",
+      "metro": "Philadelphia",
+      "slug": "philadelphia",
+      "country": "USA"
+    },
+    {
+      "raw": "San Francisco Bay Area (Santa Clara)",
+      "metro": "San Francisco Bay Area",
+      "suburb": "Santa Clara",
+      "slug": "san-francisco-bay-area",
+      "country": "USA"
+    },
+    {
+      "raw": "Seattle",
+      "metro": "Seattle",
+      "slug": "seattle",
+      "country": "USA"
+    },
+    {
+      "raw": "Toronto",
+      "metro": "Toronto",
+      "slug": "toronto",
+      "country": "Canada"
+    },
+    {
+      "raw": "Vancouver",
+      "metro": "Vancouver",
+      "slug": "vancouver",
+      "country": "Canada"
+    }
+  ],
+  "nations": [
+    "Algeria",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bosnia & Herzegovina",
+    "Brazil",
+    "Canada",
+    "Cape Verde",
+    "Colombia",
+    "Croatia",
+    "Curaçao",
+    "Czech Republic",
+    "DR Congo",
+    "Ecuador",
+    "Egypt",
+    "England",
+    "France",
+    "Germany",
+    "Ghana",
+    "Haiti",
+    "Iran",
+    "Iraq",
+    "Ivory Coast",
+    "Japan",
+    "Jordan",
+    "Mexico",
+    "Morocco",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Panama",
+    "Paraguay",
+    "Portugal",
+    "Qatar",
+    "Saudi Arabia",
+    "Scotland",
+    "Senegal",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Tunisia",
+    "Turkey",
+    "Uruguay",
+    "USA",
+    "Uzbekistan"
+  ],
+  "groups": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ]
+}

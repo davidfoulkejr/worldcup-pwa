@@ -1,0 +1,17 @@
+{
+  "name": "worldcup-pwa-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "fetch": "npm run fetch -w @worldcup/data",
+    "test": "npm run test -w @worldcup/data",
+    "dev": "npm run dev -w @worldcup/web",
+    "build": "npm run fetch -w @worldcup/data && npm run build -w @worldcup/web",
+    "preview": "npm run preview -w @worldcup/web"
+  }
+}
