@@ -274,9 +274,33 @@
         "utcOffset": "UTC-7",
         "utc": "2026-06-13T19:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Boualem Khoukhi",
+          "minute": "90+4",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Breel Embolo",
+          "minute": "17",
+          "ownGoal": false,
+          "penalty": true
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          1
+        ],
+        "halfTime": [
+          0,
+          1
+        ]
+      }
     },
     {
       "id": "g-C-md3-1",
@@ -306,9 +330,33 @@
         "utcOffset": "UTC-4",
         "utc": "2026-06-13T22:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Vinícius Júnior",
+          "minute": "32",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Ismael Saibari",
+          "minute": "21",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          1
+        ],
+        "halfTime": [
+          1,
+          1
+        ]
+      }
     },
     {
       "id": "g-C-md3-2",
@@ -339,8 +387,25 @@
         "utc": "2026-06-14T01:00:00.000Z"
       },
       "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals2": [
+        {
+          "scorer": "John McGinn",
+          "minute": "28",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          0,
+          1
+        ],
+        "halfTime": [
+          0,
+          1
+        ]
+      }
     },
     {
       "id": "g-D-md3-1",
@@ -369,9 +434,32 @@
         "utcOffset": "UTC-7",
         "utc": "2026-06-14T04:00:00.000Z"
       },
-      "goals1": [],
+      "goals1": [
+        {
+          "scorer": "Nestory Irankunda",
+          "minute": "27",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Connor Metcalfe",
+          "minute": "75",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
       "goals2": [],
-      "hasConfirmedTeams": true
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          2,
+          0
+        ],
+        "halfTime": [
+          1,
+          0
+        ]
+      }
     },
     {
       "id": "g-E-md4-1",
@@ -400,9 +488,69 @@
         "utcOffset": "UTC-5",
         "utc": "2026-06-14T17:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Felix Nmecha",
+          "minute": "6",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Nico Schlotterbeck",
+          "minute": "38",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Kai Havertz",
+          "minute": "45+5",
+          "ownGoal": false,
+          "penalty": true
+        },
+        {
+          "scorer": "Kai Havertz",
+          "minute": "88",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Jamal Musiala",
+          "minute": "47",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Nathaniel Brown",
+          "minute": "68",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Deniz Undav",
+          "minute": "78",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Livano Comenencia",
+          "minute": "21",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          7,
+          1
+        ],
+        "halfTime": [
+          3,
+          1
+        ]
+      }
     },
     {
       "id": "g-F-md4-1",
@@ -432,9 +580,45 @@
         "utcOffset": "UTC-5",
         "utc": "2026-06-14T20:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Virgil van Dijk",
+          "minute": "51",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Crysencio Summerville",
+          "minute": "64",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Keito Nakamura",
+          "minute": "57",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Daichi Kamada",
+          "minute": "88",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          2,
+          2
+        ],
+        "halfTime": [
+          0,
+          0
+        ]
+      }
     },
     {
       "id": "g-E-md4-2",
@@ -463,9 +647,26 @@
         "utcOffset": "UTC-4",
         "utc": "2026-06-14T23:00:00.000Z"
       },
-      "goals1": [],
+      "goals1": [
+        {
+          "scorer": "Amad Diallo",
+          "minute": "90",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
       "goals2": [],
-      "hasConfirmedTeams": true
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          0
+        ],
+        "halfTime": [
+          0,
+          0
+        ]
+      }
     },
     {
       "id": "g-F-md4-2",
@@ -495,9 +696,57 @@
         "utcOffset": "UTC-6",
         "utc": "2026-06-15T02:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Yasin Ayari",
+          "minute": "7",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Alexander Isak",
+          "minute": "30",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Viktor Gyökeres",
+          "minute": "59",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Mattias Svanberg",
+          "minute": "84",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Yasin Ayari",
+          "minute": "90+6",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Omar Rekik",
+          "minute": "43",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          5,
+          1
+        ],
+        "halfTime": [
+          2,
+          1
+        ]
+      }
     },
     {
       "id": "g-H-md5-1",
@@ -528,7 +777,17 @@
       },
       "goals1": [],
       "goals2": [],
-      "hasConfirmedTeams": true
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          0,
+          0
+        ],
+        "halfTime": [
+          0,
+          0
+        ]
+      }
     },
     {
       "id": "g-G-md5-1",
@@ -557,9 +816,33 @@
         "utcOffset": "UTC-7",
         "utc": "2026-06-15T19:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Mohamed Hany",
+          "minute": "66",
+          "ownGoal": true,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Emam Ashour",
+          "minute": "19",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          1
+        ],
+        "halfTime": [
+          0,
+          1
+        ]
+      }
     },
     {
       "id": "g-H-md5-2",
@@ -589,9 +872,33 @@
         "utcOffset": "UTC-4",
         "utc": "2026-06-15T22:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Abdulelah Al-Amri",
+          "minute": "41",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Maxi Araújo",
+          "minute": "80",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          1
+        ],
+        "halfTime": [
+          1,
+          0
+        ]
+      }
     },
     {
       "id": "g-G-md5-2",
@@ -621,9 +928,45 @@
         "utcOffset": "UTC-7",
         "utc": "2026-06-16T01:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Ramin Rezaeian",
+          "minute": "32",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Mohammad Mohebbi",
+          "minute": "64",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Elijah Just",
+          "minute": "7",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Elijah Just",
+          "minute": "54",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          2,
+          2
+        ],
+        "halfTime": [
+          1,
+          1
+        ]
+      }
     },
     {
       "id": "g-I-md6-1",
@@ -653,9 +996,45 @@
         "utcOffset": "UTC-4",
         "utc": "2026-06-16T19:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Kylian Mbappé",
+          "minute": "66",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Bradley Barcola",
+          "minute": "82",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Kylian Mbappé",
+          "minute": "90+6",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Ibrahim Mbaye",
+          "minute": "90+5",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          3,
+          1
+        ],
+        "halfTime": [
+          0,
+          0
+        ]
+      }
     },
     {
       "id": "g-I-md6-2",
@@ -685,9 +1064,51 @@
         "utcOffset": "UTC-4",
         "utc": "2026-06-16T22:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Aymen Hussein",
+          "minute": "39",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Erling Haaland",
+          "minute": "29",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Erling Haaland",
+          "minute": "43",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Leo Østigard",
+          "minute": "76",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Aymen Hussein",
+          "minute": "90+6",
+          "ownGoal": true,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          1,
+          4
+        ],
+        "halfTime": [
+          1,
+          2
+        ]
+      }
     },
     {
       "id": "g-J-md6-1",
@@ -716,9 +1137,38 @@
         "utcOffset": "UTC-5",
         "utc": "2026-06-17T01:00:00.000Z"
       },
-      "goals1": [],
+      "goals1": [
+        {
+          "scorer": "Lionel Messi",
+          "minute": "17",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "minute": "60",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Lionel Messi",
+          "minute": "76",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
       "goals2": [],
-      "hasConfirmedTeams": true
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          3,
+          0
+        ],
+        "halfTime": [
+          1,
+          0
+        ]
+      }
     },
     {
       "id": "g-J-md6-2",
@@ -748,9 +1198,45 @@
         "utcOffset": "UTC-7",
         "utc": "2026-06-17T04:00:00.000Z"
       },
-      "goals1": [],
-      "goals2": [],
-      "hasConfirmedTeams": true
+      "goals1": [
+        {
+          "scorer": "Romano Schmid",
+          "minute": "21",
+          "ownGoal": false,
+          "penalty": false
+        },
+        {
+          "scorer": "Yazan Al-Arab",
+          "minute": "76",
+          "ownGoal": true,
+          "penalty": false
+        },
+        {
+          "scorer": "Marko Arnautovic",
+          "minute": "90+12",
+          "ownGoal": false,
+          "penalty": true
+        }
+      ],
+      "goals2": [
+        {
+          "scorer": "Ali Olwan",
+          "minute": "50",
+          "ownGoal": false,
+          "penalty": false
+        }
+      ],
+      "hasConfirmedTeams": true,
+      "score": {
+        "fullTime": [
+          3,
+          1
+        ],
+        "halfTime": [
+          1,
+          0
+        ]
+      }
     },
     {
       "id": "g-K-md7-1",

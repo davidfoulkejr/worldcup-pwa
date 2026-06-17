@@ -170,7 +170,7 @@ export function FixturesView({ tournament, unresolvedSlots }: Props) {
 function DateGroupedList({ matches }: { matches: Match[] }) {
   // Group by the user's device-local date so the day headers match the
   // prominent kickoff times shown in each card.
-  const groups: { key: string; label: string; matches: Match[] }[] = [];
+  const groups: DateGroup[] = [];
   for (const m of matches) {
     const key = localDateKey(m.kickoff.utc);
     const last = groups[groups.length - 1];
@@ -181,23 +181,66 @@ function DateGroupedList({ matches }: { matches: Match[] }) {
     }
   }
 
+  const todayKey = localDateKey(new Date());
+  const completedGroups = groups.filter((g) => g.key < todayKey);
+  const currentAndUpcomingGroups = groups.filter((g) => g.key >= todayKey);
+  const completedCount = completedGroups.reduce(
+    (sum, g) => sum + g.matches.length,
+    0,
+  );
+
   return (
     <div className="space-y-6">
-      {groups.map((g) => (
-        <section key={g.key} className="space-y-3">
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-pitch">
-            {g.label}
-          </h3>
-          <ul className="space-y-3">
-            {g.matches.map((m) => (
-              <li key={m.id}>
-                <FixtureCard match={m} />
-              </li>
+      {completedGroups.length > 0 && (
+        <details className="rounded-xl bg-white/5 border border-white/5 open:bg-white/[0.06]">
+          <summary className="flex items-center justify-between gap-3 cursor-pointer select-none px-4 py-3 list-none">
+            <span className="font-medium">Completed games</span>
+            <span className="text-sm text-white/50 whitespace-nowrap">
+              {completedCount} fixture{completedCount === 1 ? "" : "s"} · tap to
+              expand
+            </span>
+          </summary>
+          <div className="px-4 pb-4 space-y-6">
+            {completedGroups.map((g) => (
+              <DateSection key={g.key} group={g} />
             ))}
-          </ul>
-        </section>
-      ))}
+          </div>
+        </details>
+      )}
+
+      {currentAndUpcomingGroups.length > 0 ? (
+        currentAndUpcomingGroups.map((g) => (
+          <DateSection key={g.key} group={g} />
+        ))
+      ) : (
+        <div className="rounded-xl bg-white/5 border border-white/5 p-6 text-center text-white/60">
+          No upcoming matches match your filters.
+        </div>
+      )}
     </div>
+  );
+}
+
+interface DateGroup {
+  key: string;
+  label: string;
+  matches: Match[];
+}
+
+function DateSection({ group }: { group: DateGroup }) {
+  return (
+    <section className="space-y-3">
+      <h3 className="text-sm font-semibold uppercase tracking-wider text-pitch">
+        {group.label}
+      </h3>
+      <ul className="space-y-3">
+        {group.matches.map((m) => (
+          <li key={m.id}>
+            <FixtureCard match={m} />
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }
 
