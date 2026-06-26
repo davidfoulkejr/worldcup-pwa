@@ -1,0 +1,56 @@
+name: Build & Deploy
+
+on:
+  # Re-deploy whenever scenarios or fixture data is updated on main.
+  push:
+    branches: [main]
+    paths:
+      - "packages/data/data/**"
+      - "apps/web/src/**"
+      - "apps/web/public/**"
+      - "apps/web/index.html"
+      - "apps/web/vite.config.ts"
+      - "packages/data/src/**"
+      - ".github/workflows/deploy.yml"
+
+  # Rebuild every 4 hours to pick up fresh upstream fixture data
+  # even if no code changes landed (matches happen throughout the day).
+  schedule:
+    - cron: "0 */4 * * *"
+
+  # Allow a manual trigger from the Actions tab.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build (fetch upstream fixtures + vite build)
+        run: npm run build
+        env:
+          PUBLIC_BASE_PATH: /worldcup-pwa/
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./apps/web/dist
+          publish_branch: gh-pages
+          # Keep the CNAME file if one is configured.
+          keep_files: false
+          # Let the service worker cache-bust correctly.
+          force_orphan: false
