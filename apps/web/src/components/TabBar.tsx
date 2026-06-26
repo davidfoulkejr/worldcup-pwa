@@ -4,6 +4,7 @@ const LABELS: Record<Tab, string> = {
   fixtures: "Fixtures",
   groups: "Groups",
   teams: "Teams",
+  bracket: "Bracket",
 };
 
 interface Props {
@@ -14,7 +15,7 @@ interface Props {
 export function TabBar({ active, onChange }: Props) {
   return (
     <nav
-      className="grid grid-cols-3 gap-1 rounded-xl bg-white/5 p-1 text-sm"
+      className="grid grid-cols-4 gap-1 rounded-xl bg-white/5 p-1 text-sm"
       role="tablist"
     >
       {TAB_ORDER.map((t) => {

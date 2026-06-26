@@ -1,10 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
-import { resolveBracket, type Tournament } from "@worldcup/data";
+import {
+  resolveBracket,
+  type Tournament,
+} from "@worldcup/data";
 import { TabBar } from "./components/TabBar";
 import { useHashTab } from "./lib/useHashTab";
 import { FixturesView } from "./views/FixturesView";
 import { GroupsView } from "./views/GroupsView";
 import { TeamsView } from "./views/TeamsView";
+import { BracketView } from "./views/BracketView";
 import { fetchLatestTournament, loadBakedTournament } from "./data/loader";
 
 export default function App() {
@@ -62,6 +66,7 @@ export default function App() {
         )}
         {tab === "groups" && <GroupsView tournament={resolved.tournament} />}
         {tab === "teams" && <TeamsView tournament={resolved.tournament} />}
+        {tab === "bracket" && <BracketView tournament={resolved.tournament} />}
       </main>
 
       <footer className="mt-12 text-xs text-white/40 text-center">

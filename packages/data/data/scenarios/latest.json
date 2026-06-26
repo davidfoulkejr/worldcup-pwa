@@ -1,0 +1,2050 @@
+{
+  "generated_at": "2026-06-24T21:13:29.568968Z",
+  "version": "2.0",
+  "simulations": 5000,
+  "model": "elo-monte-carlo-v1",
+  "fixtures_source": "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json",
+  "ratings_source": "https://www.eloratings.net/World.tsv",
+  "rating_fallback": 1341.5,
+  "missing_rating_teams": [],
+  "r32_matches": [
+    {
+      "match_num": 73,
+      "date": "2026-06-28",
+      "time": "12:00 UTC-7",
+      "ground": "Los Angeles (Inglewood)",
+      "slot1": "2A",
+      "slot2": "2B",
+      "team1_options": [
+        {
+          "team": "South Korea",
+          "probability": 0.8346
+        },
+        {
+          "team": "South Africa",
+          "probability": 0.1384
+        },
+        {
+          "team": "Czech Republic",
+          "probability": 0.027
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Canada",
+          "probability": 1.0
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "South Korea",
+          "team2": "Canada",
+          "probability": 0.8346
+        },
+        {
+          "team1": "South Africa",
+          "team2": "Canada",
+          "probability": 0.1384
+        },
+        {
+          "team1": "Czech Republic",
+          "team2": "Canada",
+          "probability": 0.027
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "South Korea",
+        "team2": "Canada",
+        "probability": 0.8346
+      },
+      "confidence": 0.8346
+    },
+    {
+      "match_num": 74,
+      "date": "2026-06-29",
+      "time": "16:30 UTC-4",
+      "ground": "Boston (Foxborough)",
+      "slot1": "Germany",
+      "slot2": "3A/B/C/D/F",
+      "team1_options": [
+        {
+          "team": "Germany",
+          "probability": 1.0
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Bosnia & Herzegovina",
+          "probability": 0.4368
+        },
+        {
+          "team": "Japan",
+          "probability": 0.1924
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.1634
+        },
+        {
+          "team": "Czech Republic",
+          "probability": 0.122
+        },
+        {
+          "team": "Scotland",
+          "probability": 0.0696
+        },
+        {
+          "team": "South Africa",
+          "probability": 0.0096
+        },
+        {
+          "team": "Netherlands",
+          "probability": 0.0056
+        },
+        {
+          "team": "Brazil",
+          "probability": 0.0006
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Germany",
+          "team2": "Bosnia & Herzegovina",
+          "probability": 0.4368
+        },
+        {
+          "team1": "Germany",
+          "team2": "Japan",
+          "probability": 0.1924
+        },
+        {
+          "team1": "Germany",
+          "team2": "Sweden",
+          "probability": 0.1634
+        },
+        {
+          "team1": "Germany",
+          "team2": "Czech Republic",
+          "probability": 0.122
+        },
+        {
+          "team1": "Germany",
+          "team2": "Scotland",
+          "probability": 0.0696
+        },
+        {
+          "team1": "Germany",
+          "team2": "South Africa",
+          "probability": 0.0096
+        },
+        {
+          "team1": "Germany",
+          "team2": "Netherlands",
+          "probability": 0.0056
+        },
+        {
+          "team1": "Germany",
+          "team2": "Brazil",
+          "probability": 0.0006
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Germany",
+        "team2": "Bosnia & Herzegovina",
+        "probability": 0.4368
+      },
+      "confidence": 0.4368
+    },
+    {
+      "match_num": 75,
+      "date": "2026-06-29",
+      "time": "19:00 UTC-6",
+      "ground": "Monterrey (Guadalupe)",
+      "slot1": "1F",
+      "slot2": "2C",
+      "team1_options": [
+        {
+          "team": "Netherlands",
+          "probability": 0.6022
+        },
+        {
+          "team": "Japan",
+          "probability": 0.3552
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.0426
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Morocco",
+          "probability": 0.8746
+        },
+        {
+          "team": "Brazil",
+          "probability": 0.1248
+        },
+        {
+          "team": "Scotland",
+          "probability": 0.0006
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Netherlands",
+          "team2": "Morocco",
+          "probability": 0.5266
+        },
+        {
+          "team1": "Japan",
+          "team2": "Morocco",
+          "probability": 0.31
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Brazil",
+          "probability": 0.0754
+        },
+        {
+          "team1": "Japan",
+          "team2": "Brazil",
+          "probability": 0.0448
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Morocco",
+          "probability": 0.038
+        },
+        {
+          "team1": "Sweden",
+          "team2": "Brazil",
+          "probability": 0.0046
+        },
+        {
+          "team1": "Japan",
+          "team2": "Scotland",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Netherlands",
+          "team2": "Scotland",
+          "probability": 0.0002
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Netherlands",
+        "team2": "Morocco",
+        "probability": 0.5266
+      },
+      "confidence": 0.5266
+    },
+    {
+      "match_num": 76,
+      "date": "2026-06-29",
+      "time": "12:00 UTC-5",
+      "ground": "Houston",
+      "slot1": "1C",
+      "slot2": "2F",
+      "team1_options": [
+        {
+          "team": "Brazil",
+          "probability": 0.8744
+        },
+        {
+          "team": "Morocco",
+          "probability": 0.1252
+        },
+        {
+          "team": "Scotland",
+          "probability": 0.0004
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Japan",
+          "probability": 0.4508
+        },
+        {
+          "team": "Netherlands",
+          "probability": 0.3922
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.157
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Brazil",
+          "team2": "Japan",
+          "probability": 0.3966
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Netherlands",
+          "probability": 0.3428
+        },
+        {
+          "team1": "Brazil",
+          "team2": "Sweden",
+          "probability": 0.135
+        },
+        {
+          "team1": "Morocco",
+          "team2": "Japan",
+          "probability": 0.0542
+        },
+        {
+          "team1": "Morocco",
+          "team2": "Netherlands",
+          "probability": 0.0492
+        },
+        {
+          "team1": "Morocco",
+          "team2": "Sweden",
+          "probability": 0.0218
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Netherlands",
+          "probability": 0.0002
+        },
+        {
+          "team1": "Scotland",
+          "team2": "Sweden",
+          "probability": 0.0002
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Brazil",
+        "team2": "Japan",
+        "probability": 0.3966
+      },
+      "confidence": 0.3966
+    },
+    {
+      "match_num": 77,
+      "date": "2026-06-30",
+      "time": "17:00 UTC-4",
+      "ground": "New York/New Jersey (East Rutherford)",
+      "slot1": "1I",
+      "slot2": "3C/D/F/G/H",
+      "team1_options": [
+        {
+          "team": "France",
+          "probability": 0.7552
+        },
+        {
+          "team": "Norway",
+          "probability": 0.2448
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Egypt",
+          "probability": 0.277
+        },
+        {
+          "team": "Paraguay",
+          "probability": 0.1508
+        },
+        {
+          "team": "Iran",
+          "probability": 0.125
+        },
+        {
+          "team": "Scotland",
+          "probability": 0.1064
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.0818
+        },
+        {
+          "team": "Spain",
+          "probability": 0.05
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.0464
+        },
+        {
+          "team": "Belgium",
+          "probability": 0.043
+        },
+        {
+          "team": "New Zealand",
+          "probability": 0.0396
+        },
+        {
+          "team": "Australia",
+          "probability": 0.0316
+        },
+        {
+          "team": "Saudi Arabia",
+          "probability": 0.0264
+        },
+        {
+          "team": "Cape Verde",
+          "probability": 0.0206
+        },
+        {
+          "team": "Japan",
+          "probability": 0.0012
+        },
+        {
+          "team": "Morocco",
+          "probability": 0.0002
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "France",
+          "team2": "Egypt",
+          "probability": 0.2088
+        },
+        {
+          "team1": "France",
+          "team2": "Paraguay",
+          "probability": 0.1142
+        },
+        {
+          "team1": "France",
+          "team2": "Iran",
+          "probability": 0.0942
+        },
+        {
+          "team1": "France",
+          "team2": "Scotland",
+          "probability": 0.079
+        },
+        {
+          "team1": "Norway",
+          "team2": "Egypt",
+          "probability": 0.0682
+        },
+        {
+          "team1": "France",
+          "team2": "Sweden",
+          "probability": 0.0638
+        },
+        {
+          "team1": "France",
+          "team2": "Spain",
+          "probability": 0.0394
+        },
+        {
+          "team1": "Norway",
+          "team2": "Paraguay",
+          "probability": 0.0366
+        },
+        {
+          "team1": "France",
+          "team2": "Uruguay",
+          "probability": 0.0332
+        },
+        {
+          "team1": "France",
+          "team2": "Belgium",
+          "probability": 0.0316
+        },
+        {
+          "team1": "Norway",
+          "team2": "Iran",
+          "probability": 0.0308
+        },
+        {
+          "team1": "France",
+          "team2": "New Zealand",
+          "probability": 0.0292
+        },
+        {
+          "team1": "Norway",
+          "team2": "Scotland",
+          "probability": 0.0274
+        },
+        {
+          "team1": "France",
+          "team2": "Australia",
+          "probability": 0.0236
+        },
+        {
+          "team1": "France",
+          "team2": "Saudi Arabia",
+          "probability": 0.0212
+        },
+        {
+          "team1": "Norway",
+          "team2": "Sweden",
+          "probability": 0.018
+        },
+        {
+          "team1": "France",
+          "team2": "Cape Verde",
+          "probability": 0.0158
+        },
+        {
+          "team1": "Norway",
+          "team2": "Uruguay",
+          "probability": 0.0132
+        },
+        {
+          "team1": "Norway",
+          "team2": "Belgium",
+          "probability": 0.0114
+        },
+        {
+          "team1": "Norway",
+          "team2": "Spain",
+          "probability": 0.0106
+        },
+        {
+          "team1": "Norway",
+          "team2": "New Zealand",
+          "probability": 0.0104
+        },
+        {
+          "team1": "Norway",
+          "team2": "Australia",
+          "probability": 0.008
+        },
+        {
+          "team1": "Norway",
+          "team2": "Saudi Arabia",
+          "probability": 0.0052
+        },
+        {
+          "team1": "Norway",
+          "team2": "Cape Verde",
+          "probability": 0.0048
+        },
+        {
+          "team1": "France",
+          "team2": "Japan",
+          "probability": 0.001
+        },
+        {
+          "team1": "France",
+          "team2": "Morocco",
+          "probability": 0.0002
+        },
+        {
+          "team1": "Norway",
+          "team2": "Japan",
+          "probability": 0.0002
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "France",
+        "team2": "Egypt",
+        "probability": 0.2088
+      },
+      "confidence": 0.2088
+    },
+    {
+      "match_num": 78,
+      "date": "2026-06-30",
+      "time": "12:00 UTC-5",
+      "ground": "Dallas (Arlington)",
+      "slot1": "2E",
+      "slot2": "2I",
+      "team1_options": [
+        {
+          "team": "Ivory Coast",
+          "probability": 0.8598
+        },
+        {
+          "team": "Curaçao",
+          "probability": 0.101
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0392
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Norway",
+          "probability": 0.7552
+        },
+        {
+          "team": "France",
+          "probability": 0.2448
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Ivory Coast",
+          "team2": "Norway",
+          "probability": 0.6504
+        },
+        {
+          "team1": "Ivory Coast",
+          "team2": "France",
+          "probability": 0.2094
+        },
+        {
+          "team1": "Curaçao",
+          "team2": "Norway",
+          "probability": 0.0742
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "Norway",
+          "probability": 0.0306
+        },
+        {
+          "team1": "Curaçao",
+          "team2": "France",
+          "probability": 0.0268
+        },
+        {
+          "team1": "Ecuador",
+          "team2": "France",
+          "probability": 0.0086
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Ivory Coast",
+        "team2": "Norway",
+        "probability": 0.6504
+      },
+      "confidence": 0.6504
+    },
+    {
+      "match_num": 79,
+      "date": "2026-06-30",
+      "time": "19:00 UTC-6",
+      "ground": "Mexico City",
+      "slot1": "Mexico",
+      "slot2": "3C/E/F/H/I",
+      "team1_options": [
+        {
+          "team": "Mexico",
+          "probability": 1.0
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Ecuador",
+          "probability": 0.2366
+        },
+        {
+          "team": "Senegal",
+          "probability": 0.2314
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.1914
+        },
+        {
+          "team": "Scotland",
+          "probability": 0.1724
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.0484
+        },
+        {
+          "team": "Curaçao",
+          "probability": 0.0376
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0284
+        },
+        {
+          "team": "Cape Verde",
+          "probability": 0.024
+        },
+        {
+          "team": "Saudi Arabia",
+          "probability": 0.013
+        },
+        {
+          "team": "Iraq",
+          "probability": 0.0094
+        },
+        {
+          "team": "Japan",
+          "probability": 0.004
+        },
+        {
+          "team": "Spain",
+          "probability": 0.0032
+        },
+        {
+          "team": "Brazil",
+          "probability": 0.0002
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Mexico",
+          "team2": "Ecuador",
+          "probability": 0.2366
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Senegal",
+          "probability": 0.2314
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Sweden",
+          "probability": 0.1914
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Scotland",
+          "probability": 0.1724
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Uruguay",
+          "probability": 0.0484
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Curaçao",
+          "probability": 0.0376
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Ivory Coast",
+          "probability": 0.0284
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Cape Verde",
+          "probability": 0.024
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Saudi Arabia",
+          "probability": 0.013
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Iraq",
+          "probability": 0.0094
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Japan",
+          "probability": 0.004
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Spain",
+          "probability": 0.0032
+        },
+        {
+          "team1": "Mexico",
+          "team2": "Brazil",
+          "probability": 0.0002
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Mexico",
+        "team2": "Ecuador",
+        "probability": 0.2366
+      },
+      "confidence": 0.2366
+    },
+    {
+      "match_num": 80,
+      "date": "2026-07-01",
+      "time": "12:00 UTC-4",
+      "ground": "Atlanta",
+      "slot1": "1L",
+      "slot2": "3E/H/I/J/K",
+      "team1_options": [
+        {
+          "team": "England",
+          "probability": 0.7744
+        },
+        {
+          "team": "Croatia",
+          "probability": 0.1722
+        },
+        {
+          "team": "Ghana",
+          "probability": 0.0534
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "DR Congo",
+          "probability": 0.3414
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.2694
+        },
+        {
+          "team": "Senegal",
+          "probability": 0.1718
+        },
+        {
+          "team": "Austria",
+          "probability": 0.1412
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0144
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.013
+        },
+        {
+          "team": "Iraq",
+          "probability": 0.0124
+        },
+        {
+          "team": "Uzbekistan",
+          "probability": 0.0106
+        },
+        {
+          "team": "Cape Verde",
+          "probability": 0.0078
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0068
+        },
+        {
+          "team": "Saudi Arabia",
+          "probability": 0.0046
+        },
+        {
+          "team": "Spain",
+          "probability": 0.0038
+        },
+        {
+          "team": "Portugal",
+          "probability": 0.0022
+        },
+        {
+          "team": "Curaçao",
+          "probability": 0.0006
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "England",
+          "team2": "DR Congo",
+          "probability": 0.262
+        },
+        {
+          "team1": "England",
+          "team2": "Algeria",
+          "probability": 0.2094
+        },
+        {
+          "team1": "England",
+          "team2": "Senegal",
+          "probability": 0.1328
+        },
+        {
+          "team1": "England",
+          "team2": "Austria",
+          "probability": 0.11
+        },
+        {
+          "team1": "Croatia",
+          "team2": "DR Congo",
+          "probability": 0.062
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Algeria",
+          "probability": 0.043
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Senegal",
+          "probability": 0.0288
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Austria",
+          "probability": 0.0246
+        },
+        {
+          "team1": "Ghana",
+          "team2": "DR Congo",
+          "probability": 0.0174
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Algeria",
+          "probability": 0.017
+        },
+        {
+          "team1": "England",
+          "team2": "Ivory Coast",
+          "probability": 0.0114
+        },
+        {
+          "team1": "England",
+          "team2": "Uruguay",
+          "probability": 0.0108
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Senegal",
+          "probability": 0.0102
+        },
+        {
+          "team1": "England",
+          "team2": "Iraq",
+          "probability": 0.0096
+        },
+        {
+          "team1": "England",
+          "team2": "Uzbekistan",
+          "probability": 0.008
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Austria",
+          "probability": 0.0066
+        },
+        {
+          "team1": "England",
+          "team2": "Cape Verde",
+          "probability": 0.0066
+        },
+        {
+          "team1": "England",
+          "team2": "Ecuador",
+          "probability": 0.0056
+        },
+        {
+          "team1": "England",
+          "team2": "Saudi Arabia",
+          "probability": 0.004
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Ivory Coast",
+          "probability": 0.0026
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Iraq",
+          "probability": 0.0024
+        },
+        {
+          "team1": "England",
+          "team2": "Spain",
+          "probability": 0.0024
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Uruguay",
+          "probability": 0.0022
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Uzbekistan",
+          "probability": 0.0022
+        },
+        {
+          "team1": "England",
+          "team2": "Portugal",
+          "probability": 0.0014
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Spain",
+          "probability": 0.0012
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Ecuador",
+          "probability": 0.001
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Cape Verde",
+          "probability": 0.0008
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Portugal",
+          "probability": 0.0008
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Iraq",
+          "probability": 0.0004
+        },
+        {
+          "team1": "England",
+          "team2": "Curaçao",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Ivory Coast",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Cape Verde",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Uzbekistan",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Saudi Arabia",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Croatia",
+          "team2": "Curaçao",
+          "probability": 0.0002
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Spain",
+          "probability": 0.0002
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Ecuador",
+          "probability": 0.0002
+        },
+        {
+          "team1": "Ghana",
+          "team2": "Saudi Arabia",
+          "probability": 0.0002
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "England",
+        "team2": "DR Congo",
+        "probability": 0.262
+      },
+      "confidence": 0.262
+    },
+    {
+      "match_num": 81,
+      "date": "2026-07-01",
+      "time": "17:00 UTC-7",
+      "ground": "San Francisco Bay Area (Santa Clara)",
+      "slot1": "USA",
+      "slot2": "3B/E/F/I/J",
+      "team1_options": [
+        {
+          "team": "USA",
+          "probability": 1.0
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Bosnia & Herzegovina",
+          "probability": 0.6078
+        },
+        {
+          "team": "Sweden",
+          "probability": 0.1838
+        },
+        {
+          "team": "Senegal",
+          "probability": 0.0732
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.064
+        },
+        {
+          "team": "Austria",
+          "probability": 0.0422
+        },
+        {
+          "team": "Iraq",
+          "probability": 0.013
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0096
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0064
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "USA",
+          "team2": "Bosnia & Herzegovina",
+          "probability": 0.6078
+        },
+        {
+          "team1": "USA",
+          "team2": "Sweden",
+          "probability": 0.1838
+        },
+        {
+          "team1": "USA",
+          "team2": "Senegal",
+          "probability": 0.0732
+        },
+        {
+          "team1": "USA",
+          "team2": "Algeria",
+          "probability": 0.064
+        },
+        {
+          "team1": "USA",
+          "team2": "Austria",
+          "probability": 0.0422
+        },
+        {
+          "team1": "USA",
+          "team2": "Iraq",
+          "probability": 0.013
+        },
+        {
+          "team1": "USA",
+          "team2": "Ivory Coast",
+          "probability": 0.0096
+        },
+        {
+          "team1": "USA",
+          "team2": "Ecuador",
+          "probability": 0.0064
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "USA",
+        "team2": "Bosnia & Herzegovina",
+        "probability": 0.6078
+      },
+      "confidence": 0.6078
+    },
+    {
+      "match_num": 82,
+      "date": "2026-07-01",
+      "time": "13:00 UTC-7",
+      "ground": "Seattle",
+      "slot1": "1G",
+      "slot2": "3A/E/H/I/J",
+      "team1_options": [
+        {
+          "team": "Egypt",
+          "probability": 0.5654
+        },
+        {
+          "team": "Iran",
+          "probability": 0.275
+        },
+        {
+          "team": "Belgium",
+          "probability": 0.1596
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Senegal",
+          "probability": 0.2024
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.1992
+        },
+        {
+          "team": "Czech Republic",
+          "probability": 0.1112
+        },
+        {
+          "team": "Austria",
+          "probability": 0.104
+        },
+        {
+          "team": "South Korea",
+          "probability": 0.0906
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0762
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.0514
+        },
+        {
+          "team": "Iraq",
+          "probability": 0.0372
+        },
+        {
+          "team": "Spain",
+          "probability": 0.0294
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0286
+        },
+        {
+          "team": "Cape Verde",
+          "probability": 0.0226
+        },
+        {
+          "team": "South Africa",
+          "probability": 0.0216
+        },
+        {
+          "team": "Saudi Arabia",
+          "probability": 0.015
+        },
+        {
+          "team": "Curaçao",
+          "probability": 0.0106
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Egypt",
+          "team2": "Algeria",
+          "probability": 0.1188
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Senegal",
+          "probability": 0.1066
+        },
+        {
+          "team1": "Iran",
+          "team2": "Senegal",
+          "probability": 0.0618
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Czech Republic",
+          "probability": 0.059
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Austria",
+          "probability": 0.0572
+        },
+        {
+          "team1": "Egypt",
+          "team2": "South Korea",
+          "probability": 0.0548
+        },
+        {
+          "team1": "Iran",
+          "team2": "Algeria",
+          "probability": 0.0518
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Ecuador",
+          "probability": 0.0422
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Senegal",
+          "probability": 0.034
+        },
+        {
+          "team1": "Iran",
+          "team2": "Czech Republic",
+          "probability": 0.0326
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Uruguay",
+          "probability": 0.0322
+        },
+        {
+          "team1": "Iran",
+          "team2": "Austria",
+          "probability": 0.0296
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Algeria",
+          "probability": 0.0286
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Iraq",
+          "probability": 0.0252
+        },
+        {
+          "team1": "Iran",
+          "team2": "South Korea",
+          "probability": 0.0224
+        },
+        {
+          "team1": "Iran",
+          "team2": "Ecuador",
+          "probability": 0.0212
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Czech Republic",
+          "probability": 0.0196
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Austria",
+          "probability": 0.0172
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Ivory Coast",
+          "probability": 0.0142
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Spain",
+          "probability": 0.014
+        },
+        {
+          "team1": "Egypt",
+          "team2": "South Africa",
+          "probability": 0.0136
+        },
+        {
+          "team1": "Belgium",
+          "team2": "South Korea",
+          "probability": 0.0134
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Cape Verde",
+          "probability": 0.0132
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Ecuador",
+          "probability": 0.0128
+        },
+        {
+          "team1": "Iran",
+          "team2": "Uruguay",
+          "probability": 0.0124
+        },
+        {
+          "team1": "Iran",
+          "team2": "Ivory Coast",
+          "probability": 0.0102
+        },
+        {
+          "team1": "Iran",
+          "team2": "Spain",
+          "probability": 0.0094
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Saudi Arabia",
+          "probability": 0.0088
+        },
+        {
+          "team1": "Iran",
+          "team2": "Iraq",
+          "probability": 0.0078
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Uruguay",
+          "probability": 0.0068
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Spain",
+          "probability": 0.006
+        },
+        {
+          "team1": "Egypt",
+          "team2": "Curaçao",
+          "probability": 0.0056
+        },
+        {
+          "team1": "Iran",
+          "team2": "South Africa",
+          "probability": 0.0052
+        },
+        {
+          "team1": "Iran",
+          "team2": "Cape Verde",
+          "probability": 0.0048
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Cape Verde",
+          "probability": 0.0046
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Ivory Coast",
+          "probability": 0.0042
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Iraq",
+          "probability": 0.0042
+        },
+        {
+          "team1": "Iran",
+          "team2": "Saudi Arabia",
+          "probability": 0.0036
+        },
+        {
+          "team1": "Belgium",
+          "team2": "South Africa",
+          "probability": 0.0028
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Curaçao",
+          "probability": 0.0028
+        },
+        {
+          "team1": "Belgium",
+          "team2": "Saudi Arabia",
+          "probability": 0.0026
+        },
+        {
+          "team1": "Iran",
+          "team2": "Curaçao",
+          "probability": 0.0022
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Egypt",
+        "team2": "Algeria",
+        "probability": 0.1188
+      },
+      "confidence": 0.1188
+    },
+    {
+      "match_num": 83,
+      "date": "2026-07-02",
+      "time": "19:00 UTC-4",
+      "ground": "Toronto",
+      "slot1": "2K",
+      "slot2": "2L",
+      "team1_options": [
+        {
+          "team": "Portugal",
+          "probability": 0.6336
+        },
+        {
+          "team": "Colombia",
+          "probability": 0.3642
+        },
+        {
+          "team": "DR Congo",
+          "probability": 0.0022
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Croatia",
+          "probability": 0.5672
+        },
+        {
+          "team": "England",
+          "probability": 0.2186
+        },
+        {
+          "team": "Ghana",
+          "probability": 0.2142
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Portugal",
+          "team2": "Croatia",
+          "probability": 0.3584
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Croatia",
+          "probability": 0.2074
+        },
+        {
+          "team1": "Portugal",
+          "team2": "England",
+          "probability": 0.1408
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Ghana",
+          "probability": 0.1344
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Ghana",
+          "probability": 0.0798
+        },
+        {
+          "team1": "Colombia",
+          "team2": "England",
+          "probability": 0.077
+        },
+        {
+          "team1": "DR Congo",
+          "team2": "Croatia",
+          "probability": 0.0014
+        },
+        {
+          "team1": "DR Congo",
+          "team2": "England",
+          "probability": 0.0008
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Portugal",
+        "team2": "Croatia",
+        "probability": 0.3584
+      },
+      "confidence": 0.3584
+    },
+    {
+      "match_num": 84,
+      "date": "2026-07-02",
+      "time": "12:00 UTC-7",
+      "ground": "Los Angeles (Inglewood)",
+      "slot1": "1H",
+      "slot2": "2J",
+      "team1_options": [
+        {
+          "team": "Spain",
+          "probability": 0.8646
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.1158
+        },
+        {
+          "team": "Cape Verde",
+          "probability": 0.0196
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Austria",
+          "probability": 0.6802
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.3198
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Spain",
+          "team2": "Austria",
+          "probability": 0.5874
+        },
+        {
+          "team1": "Spain",
+          "team2": "Algeria",
+          "probability": 0.2772
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Austria",
+          "probability": 0.0806
+        },
+        {
+          "team1": "Uruguay",
+          "team2": "Algeria",
+          "probability": 0.0352
+        },
+        {
+          "team1": "Cape Verde",
+          "team2": "Austria",
+          "probability": 0.0122
+        },
+        {
+          "team1": "Cape Verde",
+          "team2": "Algeria",
+          "probability": 0.0074
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Spain",
+        "team2": "Austria",
+        "probability": 0.5874
+      },
+      "confidence": 0.5874
+    },
+    {
+      "match_num": 85,
+      "date": "2026-07-02",
+      "time": "20:00 UTC-7",
+      "ground": "Vancouver",
+      "slot1": "1B",
+      "slot2": "3E/F/G/I/J",
+      "team1_options": [
+        {
+          "team": "Switzerland",
+          "probability": 1.0
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Sweden",
+          "probability": 0.2484
+        },
+        {
+          "team": "Egypt",
+          "probability": 0.1632
+        },
+        {
+          "team": "Iran",
+          "probability": 0.158
+        },
+        {
+          "team": "Japan",
+          "probability": 0.1304
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0742
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.0618
+        },
+        {
+          "team": "Belgium",
+          "probability": 0.0478
+        },
+        {
+          "team": "Senegal",
+          "probability": 0.0464
+        },
+        {
+          "team": "New Zealand",
+          "probability": 0.0236
+        },
+        {
+          "team": "Austria",
+          "probability": 0.0208
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0084
+        },
+        {
+          "team": "Curaçao",
+          "probability": 0.0072
+        },
+        {
+          "team": "Iraq",
+          "probability": 0.0062
+        },
+        {
+          "team": "Netherlands",
+          "probability": 0.0036
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Switzerland",
+          "team2": "Sweden",
+          "probability": 0.2484
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Egypt",
+          "probability": 0.1632
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Iran",
+          "probability": 0.158
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Japan",
+          "probability": 0.1304
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Ecuador",
+          "probability": 0.0742
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Algeria",
+          "probability": 0.0618
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Belgium",
+          "probability": 0.0478
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Senegal",
+          "probability": 0.0464
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "New Zealand",
+          "probability": 0.0236
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Austria",
+          "probability": 0.0208
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Ivory Coast",
+          "probability": 0.0084
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Curaçao",
+          "probability": 0.0072
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Iraq",
+          "probability": 0.0062
+        },
+        {
+          "team1": "Switzerland",
+          "team2": "Netherlands",
+          "probability": 0.0036
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Switzerland",
+        "team2": "Sweden",
+        "probability": 0.2484
+      },
+      "confidence": 0.2484
+    },
+    {
+      "match_num": 86,
+      "date": "2026-07-03",
+      "time": "18:00 UTC-4",
+      "ground": "Miami (Miami Gardens)",
+      "slot1": "1J",
+      "slot2": "2H",
+      "team1_options": [
+        {
+          "team": "Argentina",
+          "probability": 1.0
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Cape Verde",
+          "probability": 0.5798
+        },
+        {
+          "team": "Saudi Arabia",
+          "probability": 0.2968
+        },
+        {
+          "team": "Spain",
+          "probability": 0.0836
+        },
+        {
+          "team": "Uruguay",
+          "probability": 0.0398
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Argentina",
+          "team2": "Cape Verde",
+          "probability": 0.5798
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Saudi Arabia",
+          "probability": 0.2968
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Spain",
+          "probability": 0.0836
+        },
+        {
+          "team1": "Argentina",
+          "team2": "Uruguay",
+          "probability": 0.0398
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Argentina",
+        "team2": "Cape Verde",
+        "probability": 0.5798
+      },
+      "confidence": 0.5798
+    },
+    {
+      "match_num": 87,
+      "date": "2026-07-03",
+      "time": "20:30 UTC-5",
+      "ground": "Kansas City",
+      "slot1": "1K",
+      "slot2": "3D/E/I/J/L",
+      "team1_options": [
+        {
+          "team": "Colombia",
+          "probability": 0.6358
+        },
+        {
+          "team": "Portugal",
+          "probability": 0.3642
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Ghana",
+          "probability": 0.7198
+        },
+        {
+          "team": "Croatia",
+          "probability": 0.2022
+        },
+        {
+          "team": "Paraguay",
+          "probability": 0.0316
+        },
+        {
+          "team": "Australia",
+          "probability": 0.0292
+        },
+        {
+          "team": "England",
+          "probability": 0.007
+        },
+        {
+          "team": "Ecuador",
+          "probability": 0.0036
+        },
+        {
+          "team": "Algeria",
+          "probability": 0.0024
+        },
+        {
+          "team": "Senegal",
+          "probability": 0.002
+        },
+        {
+          "team": "Austria",
+          "probability": 0.0014
+        },
+        {
+          "team": "Ivory Coast",
+          "probability": 0.0008
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Colombia",
+          "team2": "Ghana",
+          "probability": 0.4562
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Ghana",
+          "probability": 0.2636
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Croatia",
+          "probability": 0.1282
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Croatia",
+          "probability": 0.074
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Australia",
+          "probability": 0.0214
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Paraguay",
+          "probability": 0.0196
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Paraguay",
+          "probability": 0.012
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Australia",
+          "probability": 0.0078
+        },
+        {
+          "team1": "Colombia",
+          "team2": "England",
+          "probability": 0.005
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Ecuador",
+          "probability": 0.0024
+        },
+        {
+          "team1": "Portugal",
+          "team2": "England",
+          "probability": 0.002
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Algeria",
+          "probability": 0.0014
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Ecuador",
+          "probability": 0.0012
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Algeria",
+          "probability": 0.001
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Senegal",
+          "probability": 0.001
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Senegal",
+          "probability": 0.001
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Austria",
+          "probability": 0.0008
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Austria",
+          "probability": 0.0006
+        },
+        {
+          "team1": "Colombia",
+          "team2": "Ivory Coast",
+          "probability": 0.0004
+        },
+        {
+          "team1": "Portugal",
+          "team2": "Ivory Coast",
+          "probability": 0.0004
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Colombia",
+        "team2": "Ghana",
+        "probability": 0.4562
+      },
+      "confidence": 0.4562
+    },
+    {
+      "match_num": 88,
+      "date": "2026-07-03",
+      "time": "13:00 UTC-5",
+      "ground": "Dallas (Arlington)",
+      "slot1": "2D",
+      "slot2": "2G",
+      "team1_options": [
+        {
+          "team": "Australia",
+          "probability": 0.6114
+        },
+        {
+          "team": "Paraguay",
+          "probability": 0.3886
+        }
+      ],
+      "team2_options": [
+        {
+          "team": "Belgium",
+          "probability": 0.6386
+        },
+        {
+          "team": "Iran",
+          "probability": 0.151
+        },
+        {
+          "team": "Egypt",
+          "probability": 0.1364
+        },
+        {
+          "team": "New Zealand",
+          "probability": 0.074
+        }
+      ],
+      "matchup_options": [
+        {
+          "team1": "Australia",
+          "team2": "Belgium",
+          "probability": 0.3912
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Belgium",
+          "probability": 0.2474
+        },
+        {
+          "team1": "Australia",
+          "team2": "Iran",
+          "probability": 0.0904
+        },
+        {
+          "team1": "Australia",
+          "team2": "Egypt",
+          "probability": 0.0812
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Iran",
+          "probability": 0.0606
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "Egypt",
+          "probability": 0.0552
+        },
+        {
+          "team1": "Australia",
+          "team2": "New Zealand",
+          "probability": 0.0486
+        },
+        {
+          "team1": "Paraguay",
+          "team2": "New Zealand",
+          "probability": 0.0254
+        }
+      ],
+      "most_likely_matchup": {
+        "team1": "Australia",
+        "team2": "Belgium",
+        "probability": 0.3912
+      },
+      "confidence": 0.3912
+    }
+  ]
+}

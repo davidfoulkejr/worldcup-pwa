@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const TABS = ["fixtures", "groups", "teams"] as const;
+const TABS = ["fixtures", "groups", "teams", "bracket"] as const;
 export type Tab = (typeof TABS)[number];
 
 function readHash(): Tab {

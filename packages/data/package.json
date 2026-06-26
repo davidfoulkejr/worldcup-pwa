@@ -7,7 +7,8 @@
   "types": "./src/index.ts",
   "exports": {
     ".": "./src/index.ts",
-    "./fixtures.json": "./data/worldcup-2026.normalized.json"
+    "./fixtures.json": "./data/worldcup-2026.normalized.json",
+    "./scenarios.json": "./data/scenarios/latest.json"
   },
   "scripts": {
     "fetch": "tsx scripts/fetch-and-normalize.ts",

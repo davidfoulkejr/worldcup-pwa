@@ -12,3 +12,18 @@ export {
   teamOrderByGroup,
 } from "./standings.js";
 export type { StandingRow, GroupTable } from "./standings.js";
+export {
+  loadBakedScenarios,
+  fetchScenarios,
+  getMatchScenario,
+  getMostLikelyMatchup,
+  getPossibleOutcomes,
+  getMatchConfidence,
+  formatMatchupDisplay,
+} from "./scenarios-loader.js";
+export type {
+  Scenarios,
+  R32MatchScenario,
+  TeamOption,
+  MatchupOption,
+} from "./scenarios-loader.js";
